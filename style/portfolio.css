@@ -127,10 +127,7 @@ nav .menu a{
   vertical-align: middle;
 }
 
-#about, #skills, #resume{
-  margin-top: 130px;
-}
-
+c
 #about .about-container{
   width: 71%;
   max-width: 1140px;
@@ -281,6 +278,17 @@ nav .menu a{
     border: none;
     border-radius: 5px;
     color: #757575;
+  }
+
+  .hide{
+    display: none !important;
+  }
+
+  @media  screen and (max-width: 576px) {
+    #about, #skills, #resume{
+    margin-top: 60px;
+    }
+
   }
 
 
